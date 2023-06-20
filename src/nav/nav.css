@@ -1,0 +1,72 @@
+.nav-bar{
+    width: 200px;
+    height: 100vh;
+    color: aquamarine;
+    background-color: blue;
+}
+.nav-bar-toggle{
+    
+    width: 120px;
+    height: 100vh;
+    color: aquamarine;
+    background-color: blue;
+}
+
+
+.head{
+    width: 70%;
+    height: 5vh;
+    background-color: aqua;
+    top: 10px;
+    
+    margin: 10px auto 10px auto;
+}
+
+.nav-menu{
+    
+    height: 70vh;
+    /* background-color: aquamarine; */
+    margin: 0 0px 0 0;
+}
+
+.Nav-icon-on{
+    margin-left: 85%;
+    
+}
+
+
+ul{
+    list-style: none;
+}
+.Nav-link{
+    display: inline-block;
+}
+.nav-link-names{
+    display: inline;
+}
+.nav-link-names-toggle{
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .nav-bar{
+        width: 50px;
+    }
+    .head{
+        width: 50px;
+    }
+    .Nav-icon-on{
+        margin-left: 75%;
+    }
+    /* .Nav-icon-on{display: none;} */
+    
+            
+    
+    .nav-link-names{
+        display: none;
+    }
+    .nav-link-names-toggle{
+        display: none;
+    }
+               
+  }
